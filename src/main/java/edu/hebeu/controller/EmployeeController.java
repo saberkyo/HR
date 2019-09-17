@@ -64,7 +64,6 @@ public class EmployeeController {
 			throws Exception {
 		String error = null;
 		System.out.println("username:" + username + "----" + "password:" + password + "captcha:" + captcha);
-		System.out.println(session);
 		if (username == null || username.isEmpty() || password == null || password.isEmpty()) {
 			return "login";
 		}
